@@ -23,6 +23,7 @@
 	<h1>Adding Data From Different Sources</h1>
 	</br>
 	<ul id="top">
+		<li><a href="#rstr">From a Raster Image File</a></li>
 		<li><a href="#shp">From a Shapefile (*.shp) or GeoJson</a></li>
 		<li><a href="#csv">From Delimited Text (*.csv/*.txt)</a></li>
 		<li><a href="#fgdb">From a ESRI FileGeoDataBase (*.gdb)</a></li>
@@ -36,6 +37,23 @@
 	<br>
 	<a href="../Basics/basics.html">Back To Basic Concepts</a><br>
 	<a href="..">Back To Homepage</a><br>
+	<br>
+	<h2 id="rstr">Import From a Raster Image</h2>
+	<p>
+	The easiest way to import data into our workspace is using the <b>Data Source Manager</b> <img src="img/data_source_manager_db0.PNG" height=35px width=35px/>. 
+	You can find it on the toolbar below the new project button, or open it using the <kbd>Ctrl</kbd>+<kbd>L</kbd> keyboard shortcut.
+	</br><img src="img/import_data_db0.PNG" height=150px width=200px/></br>
+	Once the window opens you have a selection of data sources, to load a Tiff, GeoTiff or most other raster file type <b>*</b>,
+	just select the <b>Raster</b> data type, the <b>file</b> source type and select your file. 
+	Click <kbd class="qgisbtn">Add</kbd>, and you can close the window, and see your layer in the workspace.</br>
+	</br><img src="img/import_data_db9.PNG" height=450px width=650/></br></br>
+	Another Option is just navigating to the folder using the browser window and dragging the layers from there</br>
+	</br><img src="img/import_data_db10.PNG" height=481 width=441/></br></br>
+	And thats it, Simple and easy to use, and now you know how to do that in Open Source.<br>
+	<b>* This method works for most of the file formats GDAL is able to read, for a full list of the formats, go to <u>S</u>ettings > <u>O</u>ptions</b> > GDAL.
+	</br><a href="#top">Go back to the top</a>
+	</p>
+	</br>
 	<br>
 	<h2 id="shp">Import From ESRI Shapefile (*.shp)</h2>
 	<p>
