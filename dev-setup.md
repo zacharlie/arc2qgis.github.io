@@ -4,13 +4,21 @@ To run locally you need to initialize the theme submodules recursively:
 git submodule update --init --recursive
 ```
 
-Ensure latest LTS of Node is running first... Then (you might need sudo):
+To spin up the hugo server at `localhost:1313` with docker:
+
+```bash
+docker-compose up -d
+```
+
+Ensure latest LTS of Node is running first... Then run this (you might need sudo on mac/ linux):
 
 ```bash
 npm ci
 ```
 
 If you want to run Hugo with the Docsy theme from scratch, you'll need the deps outlined at https://www.docsy.dev/docs/getting-started/
+
+These are installed with the `npm` command above but you can run them yourself using:
 
 ```bash
 npm install hugo-extended --save-dev

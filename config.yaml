@@ -17,6 +17,11 @@ languages:
     languageName: "English"
     # Weight used for sorting.
     weight: 1
+  af:
+    title: "arc2qgis"
+    description: "Help die verander van Esri na Open Source"
+    languageName: "Afrikaans"
+    weight: 2
 
 
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
@@ -41,7 +46,19 @@ params:
       - "tags"
       - "categories"
 
+  github_repo: "https://github.com/zacharlie/arc2qgis.github.io"
+  github_branch: "static-site-structure"
+  github_subdir: ""
+  # Google Custom Search Engine ID. Remove or comment out to disable search.
+  gcs_engine_id: "cb9702f4f65878a73"
+
 # taxonomies
 taxonomies:
   tag: "tags"
   category: "categories"
+
+outputs:
+  section:
+    - "HTML"
+    - "print"
+    - "RSS"
