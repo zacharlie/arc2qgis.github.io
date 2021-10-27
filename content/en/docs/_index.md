@@ -1,17 +1,18 @@
 
 ---
-title: "Documentation"
-linkTitle: "Documentation"
+title: "General"
+linkTitle: "General"
 weight: 20
+type: docs
 menu:
   main:
     weight: 20
 ---
 
 {{% pageinfo %}}
-Page info section.
+Welcome to Arc2OSS!
 {{% /pageinfo %}}
 
 
-Content goes here.
+General GIS data content, for outlining basic concepts etc.
 

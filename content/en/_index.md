@@ -1,10 +1,6 @@
 ---
 title: "Arc2QGIS"
-linkTitle: "Home"
 weight: 1
-menu:
-  main:
-    weight: 1
 ---
 
 {{< blocks/section color="dark" >}}
