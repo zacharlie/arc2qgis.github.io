@@ -1,18 +1,16 @@
 ---
-title: "Arc2QGIS"
+title: "Arc2OSS"
 weight: 1
 ---
 
-{{< blocks/section color="dark" >}}
-# Welcome to the Arc2QGIS project.
+{{< blocks/title color="dark" >}}
+# Arc2OSS
+{{< /blocks/title >}}
 
-The aim of this project is to provide a platform for documenting and sharing processes for performing specific spatial data system workflows that may be familiar for users of proprietary systems, to achieve the same outcomes in an Open Source context.
-{{< /blocks/section >}}
-
-{{< center cols="10" >}}
-{{< blocks/section color="white" >}}
-Not sure if this is an accessibility violation, but having multi-lingual landing might help navigate folk to the right parts of the site easier than the language switcher
-{{< /blocks/section >}}
+{{< center cols="8" >}}
+{{< blocks/title color="white" >}}
+The aim of this project is to provide a platform for documenting and sharing processes for performing spatial data system operations or workflows that may be familiar for users of proprietary systems, but in a manner that makes it possible to achieve the same or similar outcomes in an Open Source context.
+{{< /blocks/title >}}
 
 {{< tabpane >}}
   {{< tab header="English" >}}
@@ -35,13 +33,13 @@ Not sure if this is an accessibility violation, but having multi-lingual landing
   {{< /tab >}}
 {{< /tabpane >}}
 
-{{< blocks/section color="light" >}}
+{{< blocks/title color="light" >}}
 ## Objective
   
 Well this is just the homepage, and I still need to migrate all the content
-{{< /blocks/section >}}
+{{< /blocks/title >}}
 
-{{< blocks/section color="white" >}}
+{{< blocks/title color="white" >}}
 ## Motivation  
 
 This site uses hugo and the docsy theme. The setup is a pain in the butt, but it provides a few things over and above the legacy platform. Just for justifying the rationale, here are some elements to consider:
@@ -51,16 +49,16 @@ This site uses hugo and the docsy theme. The setup is a pain in the butt, but it
 - Hugo is FAST, widely used, and very flexible. And I use it in other projects so I get personal benefit and everyone has to deal with it, lol. You can use custom shortcodes and blocks which can extend already robust themes and do many fantastical things though.
 - Docsy is a pain to set up, but it has an example site and docker image for compiling and getting going fast. Despite needing extended-hugo-and-node-and-post-css-et-al actual contributors need only modify markdown content really, and the rest can be handled by GitHub actions.
 - Docsy is backed and released by Google, is designed for and used on large documentation projects, and has a host of featues that whilst increasing the tie to bootstrap a site, I've (hopefully) handled most of that already and now we have a host of useful functionality, inlcuding OOTB i18n and multilanguage support, a nifty site structure, and a theme, that while not the most pretty and maybe a little bloated, offers great a11y and navigation for large doc sets. Yay us.
-{{< /blocks/section >}}
+{{< /blocks/title >}}
 
 {{< /center >}}
 
-{{< center cols="10" >}}
-{{< blocks/section color="white" >}}
+{{< center cols="8" >}}
+{{< blocks/title color="white" >}}
 ## Content
   
 Who cares! Let's look at some stuff...
-{{< /blocks/section >}}
+{{< /blocks/title >}}
 {{< /center >}}
 
 {{< cardpane >}}
