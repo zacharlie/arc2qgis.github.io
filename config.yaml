@@ -1,0 +1,64 @@
+baseURL: "https://arc2qgis.github.io/"
+languageCode: "en-us"
+title: "arc2qgis"
+theme: "docsy"
+
+# Language settings
+contentDir: "content/en"
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+# Useful when translating.
+enableMissingTranslationPlaceholders: true
+
+languages:
+  en:
+    title: "arc2qgis"
+    description: "Helping the migration from Esri to Open Source"
+    languageName: "English"
+    # Weight used for sorting.
+    weight: 1
+  af:
+    title: "arc2qgis"
+    description: "Help die verander van Esri na Open Source"
+    languageName: "Afrikaans"
+    weight: 2
+
+
+# Developer relevant links. These will show up on right side of footer and in the community page if you have one.
+
+params:
+  author: "Arc2Qgis Community"
+  copyright: "Arc2Qgis Community"
+  links:
+    developer:
+      - name: "GitHub"
+        url: "https://github.com/arc2qgis/arc2qgis.github.io"
+        icon: "fab fa-github"
+        desc: "Contribute here!"
+  taxonomy:
+    taxonomyCloud:  # unset taxonomyCloud to hide taxonomy clouds
+      - "tags"
+      - "categories"
+    taxonomyCloudTitle:  # If used, must have same lang as taxonomyCloud
+      - "Tag Cloud"
+      - "Categories"
+    taxonomyPageHeader:  # unset taxonomyPageHeader to hide taxonomies on the page headers
+      - "tags"
+      - "categories"
+
+  github_repo: "https://github.com/zacharlie/arc2qgis.github.io"
+  github_branch: "static-site-structure"
+  github_subdir: ""
+  # Google Custom Search Engine ID. Remove or comment out to disable search.
+  gcs_engine_id: "cb9702f4f65878a73"
+
+# taxonomies
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+outputs:
+  section:
+    - "HTML"
+    - "print"
+    - "RSS"

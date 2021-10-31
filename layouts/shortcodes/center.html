@@ -1,0 +1,8 @@
+<!-- center object in page -->
+<div class="row d-flex justify-content-center text-centered">
+  <div class="mx-auto{{ if (.Get "cols") }} col-md-{{ .Get "cols" }}{{ end }}"
+  {{ if (.Get "color") }}style="background-color: {{ .Get "color" }}"{{ end }}
+  >
+    {{ .Inner }}
+  </div>
+</div>

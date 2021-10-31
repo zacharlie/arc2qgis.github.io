@@ -1,0 +1,24 @@
+{
+  "name": "arc2oss.github.io",
+  "version": "1.0.0",
+  "description": "Coming soon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arc2oss/arc2oss.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arc2oss/arc2oss.github.io/issues"
+  },
+  "homepage": "https://arc2oss.github.io",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "hugo-extended": "^0.88.1-patch1",
+    "postcss-cli": "^9.0.1"
+  }
+}

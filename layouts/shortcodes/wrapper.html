@@ -1,0 +1,4 @@
+<!-- wrapper div for injecting custom classes -->
+<div{{ if (.Get "classes")}} class=" {{ .Get "classes" }}"{{ end }}>
+  {{ .Inner }}
+</div>
